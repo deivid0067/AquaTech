@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    background-color: black;
+    font-family: Verdana;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.header {
+    border-bottom: 3px solid #32b9cd;
+}
+
+.header .container {
+    justify-content: space-between;
+}
+
+.titulo {
+    text-align: center;
+    color: #32b9cd;
+    font-weight: 500;
+}
+
+.navbar{
+    display: flex;
+    /* justify-content: space-around; */
+    width: 400px;
+    color: #e3b062;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar li {
+    list-style-type: none;
+    
+    
+}
+
+
+
